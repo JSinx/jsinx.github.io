@@ -74,27 +74,23 @@ if($_SESSION['sent'])
 </head>
 <body>
 
-<div id="page-shadow">
-
 	<div id="page">
 	
-		<div class="content-innertube">
-	
-			<div id="header">
+		<div id="header" class="clearfix">
 			
-				<h1>John William Doe</h1>
+			<h1>John William Doe</h1>
 				
-				<ul id="main-nav">
-					<li><a href="index.html">Resume</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="project.html">Project</a></li>
-					<li><a href="about.html">About me</a></li>
-					<li class="current"><a href="contact.php">Contact</a></li>
-				</ul>
+			<ul id="main-nav">
+				<li><a href="index.html">Resume</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="project.html">Project</a></li>
+				<li><a href="about.html">About me</a></li>
+				<li class="current"><a href="contact.php">Contact</a></li>
+			</ul>
 				
-				<div class="clear"></div>
-				
-			</div><!-- header end -->
+		</div><!-- header end -->
+			
+		<div class="content-innertube">
 			
 			<div id="text"><img src="img/contact.png" alt="" title=""></div>
 			<div id="stripe"></div>
@@ -219,25 +215,12 @@ if($_SESSION['sent'])
 				</div><!-- footer-resume end -->
 				
 				<div class="clear"></div>
-				
-				<ul id="footer-nav">
-					<li><a href="index.html">Resume</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="about.html">About me</a></li>
-					<li><a href="contact.php">Contact</a></li>
-				</ul>
-				
-				<div id="go-top"></div>
-				
-				<div class="clear"></div>
 			
 			</div><!-- footer-innertube end -->
 			
 		</div><!-- footer end -->
 		
 	</div><!-- page end -->
-
-</div><!-- page-shadow end -->
 
 </body>
 </html>
